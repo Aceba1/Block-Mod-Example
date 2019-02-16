@@ -13,6 +13,6 @@ Remember to modify the mod.json to make it unique!
 
 ## Using
 To compile / build your mod, press CTRL SHIFT B.
-The compiled mod folder will be in a folder called Built at the base of the repository. Take that folder and put it in QMods.
+The compiled mod folder will be in a folder called `Built` at the base of the repository. (If unchanged in Properties, it will be called `A Block Mod`.) Take that folder and put it in QMods.
 
 If all goes well, your mod should load in to the game
