@@ -1,0 +1,9 @@
+﻿{
+  "Id": "examplepack.changethisname",
+  "DisplayName": "Example Block Repository",
+  "Author": "None",
+  "Version": "1",
+  "Enable": true,
+  "AssemblyName": "Block Mod.dll",
+  "EntryMethod": "CustomBlocks.Class1.CreateBlocks"
+}
