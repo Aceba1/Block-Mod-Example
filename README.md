@@ -6,7 +6,10 @@ Open up the project in Visual Studio.
 
 In the Solution Explorer commonly to the right, find the `References` folder and right-click it. Click `Add Reference...`
 
-In the new window, click Browse at the bottom right. Go to your TerraTech_Data/Managed folder in the install directory, and select the Unity files. (You may need to use the older Unity Files)
+In the new window, click Browse at the bottom right. Go to your TerraTech_Data/Managed folder in the install directory, and select the Unity files.
+
+**Make sure that they do not copy on build:** Select all of the new references (shift-click), and in the properties window set `Copy Local` to `false`
+
 Add the files, and re-open Browse. Find the Block Inject Mod in the QMods folder.
 
 Remember to modify the mod.json to make it unique!
