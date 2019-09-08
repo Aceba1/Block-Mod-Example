@@ -27,7 +27,7 @@ namespace CustomBlocks
                 .SetIcon(GameObjectJSON.SpriteFromImage(GameObjectJSON.ImageFromFile("Blocks/icon.png")))
                 .SetMass(1f)
                 .SetSize(IntVector3.one, BlockPrefabBuilder.AttachmentPoints.All)
-                .SetModel(GameObjectJSON.MeshFromFile("Blocks/block.obj"), true, GameObjectJSON.GetObjectFromGameResources<Material>("GSO_Main")) //"GeoCorp_Main", "HE_Main", "BF_Main", "Venture_Main"
+                .SetModel(GameObjectJSON.MeshFromFile("Blocks/block.obj"), true, GameObjectJSON.GetObjectFromGameResources<Material>("GSO_Main"))  //"GC_Main", "HE_Main", "BF_Main", "VEN_Main"
                 .RegisterLater();
 
         }
