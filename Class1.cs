@@ -16,7 +16,7 @@ namespace CustomBlocks
             //var harmony = HarmonyInstance.Create("examplepack.changethisname");
             //harmony.PatchAll(System.Reflection.Assembly.GetExecutingAssembly());
 
-            new BlockPrefabBuilder(/*"GSOBlock(111)", false*/) //Use a reference if you want quick functionality
+            new BlockPrefabBuilder(/*"GSO_Block_111", true*/) //Use a reference if you want quick functionality (explosion effects, etc)
                 .SetBlockID(87532) //CHANGE THIS TO SOMETHING RANDOM
                 .SetName("Block Name")
                 .SetDescription("Description")
